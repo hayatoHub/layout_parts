@@ -3,3 +3,25 @@
 
 /* q1が終わったら
 q2のcssはq2フォルダの中のcssファイルに記述してください */
+
+.q1-box {
+  background: #3274ae;
+  float: left;
+  margin-left: 30px;
+  padding: 20px;
+  width: 300px;
+  box-sizing: border-box;
+}
+
+.q1-text {
+  border: 10px solid #022336;
+  font-size: 16px;
+  line-height: 16px;
+  background: #eaf4ff;
+  padding: 20px;
+  
+}
+
+.q1-box:first-child {
+  margin: 0px;
+}
