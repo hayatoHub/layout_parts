@@ -43,18 +43,18 @@
         <h2 class="layout_main_section_title">1.ボックスモデル</h2>
         <div class="layout_main_section_contents">
           <!-- 回答はここに書いてね -->
-          <div>
-            <p>
+          <div class="q1-box">
+            <p class="q1-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
           </div>
-          <div>
-            <p>
+          <div class="q1-box">
+            <p class="q1-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
           </div>
-          <div>
-            <p>
+          <div class="q1-box">
+            <p class="q1-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
           </div>
@@ -67,6 +67,33 @@
         <h2 class="layout_main_section_title">2.テーブル</h2>
         <div class="layout_main_section_contents">
           <!-- 回答はここに書いてね -->
+          <!-- <table border= "1" cellpadding= "10"> -->
+          <table class="menu_kcal">
+            <!-- <colgroup style="background: #2244aa"> -->
+            </colgroup>
+            <thead>
+              <tr class="layout_menu">
+                <th>日付</th><th>朝ごはん</th><th>昼ごはん</th><th>おやつ</th><th>夜ご飯</th><th>夜食</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>2016/04/01</th><td>食パン</td><td>チャーハン</td><td>杏仁豆腐</td><td>舞茸丼</td><td>いちご</td>
+              </tr>
+              <tr>
+                <th>2016/04/02</th><td>なし</td><td>ケバブ丼</td><td>ゼリー</td><td>唐揚げ定食</td><td>いちご</td>
+              </tr>
+              <tr>
+                <th>2016/04/03</th><td>納豆ご飯</td><td>まぐろ定食</td><td>チョコパン</td><td>餃子定食</td><td>チョコ</td>
+              </tr>
+              <tr>
+                <th>2016/04/04</th><td>食パン</td><td>牛丼</td><td>アイス</td><td>豚丼</td><td>スムージー</td>
+              </tr>
+              <tr class="table_bottom">
+                <th>合計カロリー</th><td>10000kcal</td><td>12000kcal</td><td>3000kcal</td><td>30000kcal</td><td>1000kcal</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
     </section>
@@ -77,15 +104,15 @@
         <div class="layout_main_section_contents">
           <!-- 新たにタグは追加しなくてもできます。 -->
           <!-- 回答はこの中に書いてね↓ -->
-          <div>
-            <div>8</div>
-            <div>5</div>
-            <div>1</div>
-            <div>7</div>
-            <div>4</div>
-            <div>6</div>
-            <div>2</div>
-            <div>3</div>
+          <div class="q3_box_background">
+            <div class="q3box eight">8</div>
+            <div class="q3box five">5</div>
+            <div class="q3box one">1</div>
+            <div class="q3box seven">7</div>
+            <dßiv class="q3box four">4</dßiv>
+            <div class="q3box six">6</div>
+            <div class="q3box two">2</div>
+            <div class="q3box three">3</div>
             <div class="q3_fixed_box"></div>
           </div>
           <!-- 回答はこの中に書いてね↑ -->
@@ -102,11 +129,11 @@
             <!-- 新たにタグは追加しなくてもできます。 -->
             <!-- 回答はこの中に書いてね↓ -->
             <div class="q4_inner_contents">
-              <div class="q4_white q4_white_small">
-                <p class="q4_blue">text-aligin</p>
+              <div class="q4_white q4_white_small q4_text_center">
+                <p class="q4_blue center">text-aligin</p>
               </div>
-              <div class="q4_white q4_white_small">
-                <p class="q4_blue">margin</p>
+              <div class="q4_white q4_white_small q4_margin_center">
+                <p class="q4_blue margin_center">margin</p>
               </div>
             </div>
             <!-- 回答はこの中に書いてね↑ -->
@@ -117,8 +144,8 @@
             <!-- 回答はこの中に書いてね↓ -->
             <div class="q4_inner_contents">
               <div class="q4_white q4_white_large">
-                <div>
-                  <p class="q4_blue">table</p>
+                <div class="q4_table_content">
+                  <p class="q4_blue q4_table_center">table</p>
                 </div>
               </div>
               <div class="q4_white q4_white_large">
