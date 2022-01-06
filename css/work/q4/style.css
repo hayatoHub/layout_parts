@@ -3,3 +3,22 @@
 
 /* q4が終わったら
 q5のcssはq5フォルダの中のcssファイルに記述してください */
+
+.q4_text_center {
+  text-align: center;
+}
+.center {
+  display: inline-block;
+}
+.margin_center {
+  margin: 0 auto;
+  text-align: center;
+}
+.q4_table_content {
+  display: table;
+}
+.q4_table_center {
+  display: table-cell;
+  
+  text-align: center;
+}
