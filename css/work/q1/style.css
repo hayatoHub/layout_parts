@@ -4,7 +4,7 @@
 /* q1が終わったら
 q2のcssはq2フォルダの中のcssファイルに記述してください */
 
-.q1_box {
+.q1_boxes {
   float: left;
   background: #3274ae;
   margin-left: 30px;
@@ -13,7 +13,7 @@ q2のcssはq2フォルダの中のcssファイルに記述してください */
   box-sizing: border-box;
 }
 
-.q1_box:first-child {
+.q1_boxes:first-child {
   margin: 0px;
 }
 
