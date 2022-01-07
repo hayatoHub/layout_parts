@@ -4,6 +4,9 @@
 /* q3が終わったら
 q4のcssはq4フォルダの中のcssファイルに記述してください */
 
+
+/* 各BOX用CSS */
+
 .q3box {
   width: 100px;
   font-size: 30px;
@@ -13,46 +16,11 @@ q4のcssはq4フォルダの中のcssファイルに記述してください */
   line-height: 100px;
 }
 
-.eight {
-  background: #de70cf;
-  top: 120px;
-  left: 120px;
-  z-index: 80;
-}
-
-.five {
-  background:  #9fd6d2;
-  left: 200px;
-  top: 360px;
-  z-index: 50;
-}
-
 .one {
   background: #ffefd3;
   left: 200px;
   top: 40px;
   z-index: 10;
-}
-
-.seven {
-  background: #deae70;
-  top: 200px;
-  left: 40px;
-  z-index: 70;
-}
-
-.four {
-  background: #8b7a5e;
-  top: 280px;
-  left: 280px;
-  z-index: 40;
-}
-
-.six {
-  background: #fffee4;
-  top: 280px;
-  left: 120px;
-  z-index: 60;
 }
 
 .two {
@@ -62,11 +30,47 @@ q4のcssはq4フォルダの中のcssファイルに記述してください */
   z-index: 20;
 }
 
+
 .three {
   background: #d0ecea;
   top: 200px;
   left: 360px;
   z-index: 30;
+}
+
+.four {
+  background: #8b7a5e;
+  top: 280px;
+  left: 280px;
+  z-index: 40;
+}
+
+.five {
+  background:  #9fd6d2;
+  left: 200px;
+  top: 360px;
+  z-index: 50;
+}
+
+.six {
+  background: #fffee4;
+  top: 280px;
+  left: 120px;
+  z-index: 60;
+}
+
+.seven {
+  background: #deae70;
+  top: 200px;
+  left: 40px;
+  z-index: 70;
+}
+
+.eight {
+  background: #de70cf;
+  top: 120px;
+  left: 120px;
+  z-index: 80;
 }
 
 .eight::after {
@@ -81,7 +85,7 @@ q4のcssはq4フォルダの中のcssファイルに記述してください */
 /* スクロール用のCSS */
 
 .q3_fixed_box {
-  background: #ecf1f2;
+  background: #eee;
   position: fixed;
   bottom: 50px ;
   right: 50px;
