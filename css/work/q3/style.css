@@ -6,7 +6,6 @@ q4のcssはq4フォルダの中のcssファイルに記述してください */
 
 .q3box {
   width: 100px;
-  /* height: 100px; */
   font-size: 30px;
   font-weight: bold;
   position: absolute;
@@ -16,7 +15,6 @@ q4のcssはq4フォルダの中のcssファイルに記述してください */
 
 .eight {
   background: #de70cf;
-  position: absolute;
   top: 120px;
   left: 120px;
   z-index: 80;
@@ -24,7 +22,6 @@ q4のcssはq4フォルダの中のcssファイルに記述してください */
 
 .five {
   background:  #9fd6d2;
-  position: absolute;
   left: 200px;
   top: 360px;
   z-index: 50;
@@ -32,7 +29,6 @@ q4のcssはq4フォルダの中のcssファイルに記述してください */
 
 .one {
   background: #ffefd3;
-  position: absolute;
   left: 200px;
   top: 40px;
   z-index: 10;
@@ -40,7 +36,6 @@ q4のcssはq4フォルダの中のcssファイルに記述してください */
 
 .seven {
   background: #deae70;
-  position: absolute;
   top: 200px;
   left: 40px;
   z-index: 70;
@@ -48,7 +43,6 @@ q4のcssはq4フォルダの中のcssファイルに記述してください */
 
 .four {
   background: #8b7a5e;
-  position: absolute;
   top: 280px;
   left: 280px;
   z-index: 40;
@@ -56,7 +50,6 @@ q4のcssはq4フォルダの中のcssファイルに記述してください */
 
 .six {
   background: #fffee4;
-  position: absolute;
   top: 280px;
   left: 120px;
   z-index: 60;
@@ -64,7 +57,6 @@ q4のcssはq4フォルダの中のcssファイルに記述してください */
 
 .two {
   background: #7084de;
-  position: absolute;
   top: 120px;
   left: 280px;
   z-index: 20;
@@ -72,7 +64,6 @@ q4のcssはq4フォルダの中のcssファイルに記述してください */
 
 .three {
   background: #d0ecea;
-  position: absolute;
   top: 200px;
   left: 360px;
   z-index: 30;
@@ -84,7 +75,6 @@ q4のcssはq4フォルダの中のcssファイルに記述してください */
   position: absolute;
   width: 20px;
   height: 20px;
-  top: 0px;
   left: 80px;
 }
 
@@ -95,7 +85,6 @@ q4のcssはq4フォルダの中のcssファイルに記述してください */
   position: fixed;
   bottom: 50px ;
   right: 50px;
-
 }
 
 /* スクロール用BOX背景用のCSS */
@@ -106,5 +95,4 @@ q4のcssはq4フォルダの中のcssファイルに記述してください */
   height: 500px;
   margin: 0 auto;
   position: relative;
-  
 }

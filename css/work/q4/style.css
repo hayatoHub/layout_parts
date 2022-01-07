@@ -4,21 +4,50 @@
 /* q4が終わったら
 q5のcssはq5フォルダの中のcssファイルに記述してください */
 
+.q4_inline {
+  display:inline-block;
+}
+
 .q4_text_center {
   text-align: center;
 }
-.center {
-  display: inline-block;
-}
-.margin_center {
+
+.q4_margin_text {
   margin: 0 auto;
-  text-align: center;
 }
-.q4_table_content {
+
+.q4_table_container {
   display: table;
 }
-.q4_table_center {
+
+.q4_table_text {
   display: table-cell;
-  
+  vertical-align: middle;
   text-align: center;
+}
+
+.q4_flex_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.q4_position_box {
+  position: relative;
+}
+
+.q4_position_fixed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.q4_position_variable {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
 }

@@ -4,7 +4,7 @@
 /* q2が終わったら
 q3のcssはq3フォルダの中のcssファイルに記述してください */
 
-table {
+.q2_table {
   width: 100%;
   table-layout: fixed;
 }
@@ -25,11 +25,11 @@ td {
   padding: 10px 0px;
 }
 
-table,th,td {
+.q2_table ,th ,td {
   border: solid 1px #dedede;
 }
 
-.table_bottom {
+tbody tr:last-child{
   border-top: dashed 2px  #000;
 }
 table tr:nth-child(odd) td {

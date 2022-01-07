@@ -4,16 +4,20 @@
 /* q1が終わったら
 q2のcssはq2フォルダの中のcssファイルに記述してください */
 
-.q1-box {
-  background: #3274ae;
+.q1_box {
   float: left;
+  background: #3274ae;
   margin-left: 30px;
   padding: 20px;
   width: 300px;
   box-sizing: border-box;
 }
 
-.q1-text {
+.q1_box:first-child {
+  margin: 0px;
+}
+
+.q1_text {
   border: 10px solid #022336;
   font-size: 16px;
   line-height: 16px;
@@ -22,6 +26,3 @@ q2のcssはq2フォルダの中のcssファイルに記述してください */
   
 }
 
-.q1-box:first-child {
-  margin: 0px;
-}
