@@ -4,7 +4,6 @@
 /* q6が終わったら
 q7のcssはq7フォルダの中のcssファイルに記述してください */
 
-
 /* 共通 */
 .q6_justify {
   justify-content: center;
@@ -61,7 +60,6 @@ q7のcssはq7フォルダの中のcssファイルに記述してください */
 .q6_right:hover .q6_mask {
   bottom: 0;
 }
-
 
 /* スクロール */
 
