@@ -23,6 +23,10 @@ q2のcssはq2フォルダの中のcssファイルに記述してください */
   line-height: 16px;
   background: #eaf4ff;
   padding: 20px;
-  
 }
 
+.clearfix {
+  content: "";
+  clear: both;
+  display: block;
+}

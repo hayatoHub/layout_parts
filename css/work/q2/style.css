@@ -9,7 +9,7 @@ q3のcssはq3フォルダの中のcssファイルに記述してください */
   table-layout: fixed;
 }
 
-th {
+.q2_table th {
   background: #2244aa;
   color: #ffffff;
   font-size: 18px;
@@ -17,7 +17,7 @@ th {
   padding: 10px 0px;
 }
 
-td {
+.q2_table td {
   background: #ecf1f2;
   font-size: 16px;
   line-height: 22px;
@@ -25,7 +25,7 @@ td {
   padding: 10px 0px;
 }
 
-.q2_table ,th ,td {
+.q2_table ,.q2_table th ,.q2_table td {
   border: solid 1px #dedede;
 }
 

@@ -4,6 +4,8 @@
 /* q5が終わったら
 q6のcssはq6フォルダの中のcssファイルに記述してください */
 
+/* 5-1 floatでの横並び */
+
 .q5_clearfix {
   content: "";
   clear: both;
@@ -29,6 +31,8 @@ q6のcssはq6フォルダの中のcssファイルに記述してください */
   margin-left: 60px;
 }
 
+/* 5-2 tableでの横並び */
+
 .q5_table {
   display: table;
   background-clip: padding-box;
@@ -45,6 +49,8 @@ q6のcssはq6フォルダの中のcssファイルに記述してください */
   border-left: none;
 }
 
+/* 5-3 inline-blockでの横並び */
+
 .q5_gap {
   font-size: 0px;
 }
@@ -58,3 +64,31 @@ q6のcssはq6フォルダの中のcssファイルに記述してください */
   margin-left: 0px;
 }
 
+/* 5-4 flexでの横並び */
+
+.q5_flex_container {
+  display: flex;
+}
+
+.q5_flex_box {
+  margin-left: 60px;
+}
+
+.q5_flex_box:first-child {
+  margin-left: 0px;
+}
+
+/* 5-5 calcでの横並び */
+
+.q5_calc_flex {
+  display: flex;
+}
+
+.q5_calc_box {
+  width: calc(100% / 3);
+  margin-left: 25px;
+}
+
+.q5_calc_box:first-child {
+  margin-left: 0px;
+}

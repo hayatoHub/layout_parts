@@ -3,3 +3,91 @@
 
 /* q6が終わったら
 q7のcssはq7フォルダの中のcssファイルに記述してください */
+
+
+/* 共通 */
+.q6_justify {
+  justify-content: center;
+  display: flex;
+}
+
+.q6_img_content {
+  width: 300px;
+  height: auto;
+  margin-left: 50px;
+  position: relative;
+  overflow: hidden;
+}
+
+.q6_img {
+  width: 100%;
+  height: 100%;
+  transition-duration: 0.5s;
+}
+
+.q6_img_content:first-child {
+  margin-left: 0;
+}
+
+/* 左の画像 */
+
+.q6_left .q6_img:hover {
+  transform: scale(1.5);
+}
+
+/* 右の画像 */
+
+.q6_mask {
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.8));
+  transition: all 0.5s;
+}
+
+.q6_mask .q6_text {
+  color: #fff;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 20px;
+  box-sizing: border-box;
+  word-break: break-all;
+}
+
+.q6_right:hover .q6_mask {
+  bottom: 0;
+}
+
+
+/* スクロール */
+
+.q6-2_animation_box {
+  width: 960px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.q6-2_animation_text {
+  padding: 80px 0;
+  height: 540px;
+  box-sizing: border-box;
+}
+
+.q6-2_animation_text p {
+  font-size: 200px;
+  animation: scroll_box 10s linear infinite;
+}
+
+@keyframes scroll_box {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

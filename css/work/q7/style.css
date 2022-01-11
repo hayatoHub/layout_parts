@@ -1,1 +1,40 @@
 @charset "UTF-8";
+
+.q7_content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.q7_text {
+  width: 500px;
+  margin-left: 35px;
+  font-size: 16px;
+  border: solid 5px #222;
+  border-radius: 30px;
+  padding: 20px;
+  position: relative;
+  word-break: break-all;
+}
+
+.q7_text:after,
+.q7_text:before {
+  content: "";
+  position: absolute;
+  bottom: 25px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border: solid 20px transparent;
+}
+
+
+.q7_text::before {
+  left: -45px;
+  border-right-color: #222;
+}
+
+.q7_text::after {
+  left: -38px;
+  border-right-color: #fff;
+}
