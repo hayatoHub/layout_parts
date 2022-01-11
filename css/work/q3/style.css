@@ -46,7 +46,7 @@ q4のcssはq4フォルダの中のcssファイルに記述してください */
 }
 
 .five {
-  background:  #9fd6d2;
+  background: #9fd6d2;
   left: 200px;
   top: 360px;
   z-index: 50;
@@ -94,7 +94,7 @@ q4のcssはq4フォルダの中のcssファイルに記述してください */
 /* スクロール用BOX背景用のCSS */
 
 .q3_box_background {
-  background: #ecf1f2;
+  background: #eee;
   width: 500px;
   height: 500px;
   margin: 0 auto;
