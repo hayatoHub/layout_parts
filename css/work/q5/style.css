@@ -35,11 +35,11 @@ q6のcssはq6フォルダの中のcssファイルに記述してください */
   display: table-cell;
   table-layout: fixed;
   width: 400px;
-  border-left: 60px solid transparent;
+  padding-left: 60px;
 }
 
 .q5_table > div:first-child {
-  border-left: none;
+  padding-left: 0;
 }
 
 /* 5-3 inline-blockでの横並び */
@@ -78,7 +78,7 @@ q6のcssはq6フォルダの中のcssファイルに記述してください */
 }
 
 .q5_calc_box {
-  width: calc(100% / 3);
+  width: calc((100% - 50px) / 3);
   margin-left: 25px;
 }
 
